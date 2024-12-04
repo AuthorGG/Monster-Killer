@@ -13,7 +13,20 @@ html {
 }
 
 body {
-  background: #3d24a4;
+
+    /* Ruta de la imagen */
+    background-image: url(../Imagenes/monsterkiller.jpg);    
+    /* Asegura que cubra toda la pantalla */
+    background-size: cover;
+
+    /* Centra la imagen */
+    background-position: center;
+
+    /* Fija el fondo mientras haces scroll */
+    background-attachment: fixed;
+
+    /* Opcional: Estilo por defecto en caso de que no cargue la imagen */
+    background-color: #333;
   
 }
 
